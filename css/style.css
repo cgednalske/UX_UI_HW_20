@@ -1,1 +1,170 @@
-fds
+/* 2nd navbar sticky scroll */
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #535353;
+    z-index: 999;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family:"Chivo", Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 88px;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 120px;
+  }
+
+
+
+/* Original CSS */
+
+h1, h5 {
+    font-family: "Rokkitt", 'Times New Roman', Times, serif;
+    font-weight: bold !important;
+}
+
+h2 {
+    font-family: "Rokkitt", 'Times New Roman', Times, serif !important;
+   
+}
+
+p {
+    font-family: "Chivo", Helvetica, sans-serif;
+    font-weight: lighter !important;
+    line-height: 1.8;
+}
+
+.navbar {
+    background-color: white !important;
+    padding: 15px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    box-shadow: 2px 2px 2px lightgrey;
+    z-index: 9999;
+    
+    
+}
+.navbar-nav {
+    margin-left: 65%;
+    
+}
+.navbar-brand img {
+    width: 80px;
+    margin-left: 20px;
+}
+
+.jumbotron {
+    background-color: white !important;
+    display: flex;
+    
+}
+
+.display-4 {
+    margin-top: 20px;
+}
+.jumbotronText {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 120px;
+    margin-bottom: -20px;
+}
+
+.sectionDropdown {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5%;
+    padding-bottom: 0px;
+    border: 2px solid red;
+}
+
+hr {
+    width: 25%;
+    margin-left: 0;
+}
+.secondNav {
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.coverImage {
+    
+    background-color: #F8F5F5;
+}
+
+.caseStudies img {
+    width: 100%;
+}
+
+.summaryText {
+    margin: 5%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionTitle {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+.summary {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.summaryTitle {
+    padding: 4%;
+}
+.summaryBody {
+    padding: 4%;
+}
+
+.sectionBody {
+    margin: 5%;
+    width: 55%;
+}
+
+.images1, .images2, .images3 {
+    margin: 2%;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.nav-item {
+    margin: 0px 15px;
+
