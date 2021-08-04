@@ -1,9 +1,10 @@
+
 /* 2nd navbar sticky scroll */
 
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #535353;
+    background-color: #313131;
     z-index: 999;
   }
   
@@ -13,7 +14,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 8px;
+    padding: 12px;
     text-decoration: none;
     font-family:"Chivo", Helvetica, sans-serif;
     font-weight: lighter;
@@ -33,7 +34,7 @@
   
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
-    padding-top: 120px;
+    padding-top: 300px;
   }
 
 
@@ -98,9 +99,9 @@ hr {
 }
 .secondNav {
     align-items: center;
-    padding: 8px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: normal;
+
 }
 
 .coverImage {
@@ -116,18 +117,6 @@ hr {
     margin: 5%;
 }
 
-.textContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-.sectionTitle {
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    width: 20%;
-}
 
 .summary {
     margin-right: 5%;
@@ -141,11 +130,6 @@ hr {
 }
 .summaryBody {
     padding: 4%;
-}
-
-.sectionBody {
-    margin: 5%;
-    width: 55%;
 }
 
 .images1, .images2, .images3 {
