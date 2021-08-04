@@ -139,6 +139,75 @@ hr {
     justify-content: center;
 }
 
+/* Footer */
+
+footer {
+    background-color: #373738;
+    width: 100%;
+    margin-top: 130px;
+    height: 350px;
+}
+.footerSection1 {
+    display: flex;
+    flex-direction: row;
+}
+.footerSection2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerList1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: start;
+    color: white;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.footerList2 {
+    width: 50%;
+    display: inline-block;
+    list-style: none;
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 8%;
+}
+.footer1element {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 18px;
+
+}
+.footer2element {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 18px;
+}
+.footerIcons {
+    float: right;
+    padding-top: 10px;
+    text-align: end;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+.copyrightText {
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-left: 8%;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 15px;
+}
+
+
 
 
 .nav-item {
